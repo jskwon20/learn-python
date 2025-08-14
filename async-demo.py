@@ -1,3 +1,5 @@
+import time
+
 def fetch_data():
     time.sleep(3)  # 3초 동안 CPU 점유하며 멈춤
     return "data"
